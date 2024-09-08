@@ -1,0 +1,224 @@
+:root{
+    --green: #7dba5c;
+    --black: #000;
+    --white: #fff;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%; 
+    height: 100%;
+    /* background: var(--black); */
+    color: var(--green);
+  }
+  .container{
+    width: 50vw;
+    /* background-color: rgb(2, 17, 2); */
+    background-color: #fff;
+    margin: auto;
+  }
+  main{
+    border: 2px solid rgba(0, 0, 0, 0.07);
+    padding-bottom:  2rem;
+  }
+  .form-container{
+    padding: 2em;
+    margin: 0 3em;
+  }
+  .heading{
+    background-color: var(--green);
+  }
+  .heading-text{
+    text-align: center;
+    color: var(--white);
+    padding: 40px;
+    font-size: 45px;
+  }
+  .form-headings{
+    font-size: 2.3em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs Styling */
+  .inputs{
+    font-size: 16px;
+    padding: 8px 5px;
+    color: var(--black);
+    width: 60%;
+    margin: 20px 0;
+  }
+  .num-input{
+    width: 25%;
+  }
+  
+  #resume-image{
+    margin: 10px 0;
+  }
+  
+  .labels{
+    font-size: 1.35em;
+    font-weight: 550;
+    margin-top: 10px;
+  }
+  .border{
+    border-top: 1px solid #7dba5c;
+    margin: 3rem 0;
+  }
+  .education-section{
+    margin-top: 10px; 
+  }
+  .edudates{
+    margin: 10px;
+  }
+  .edudate-last{
+    margin-bottom: 20px;
+  }
+  .workdates{
+    margin: 10px 0;
+  }
+  .btns{
+    background-color: var(--green);
+    border: none;
+    color: var(--white);
+    padding: 6px 9px;
+    font-weight: 530;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-text{
+    text-align: center;
+    padding: 40px;
+    background-color: var(--green);
+    color: var(--white);
+  }
+  .display-hidden{
+    display: hidden;
+  }
+  
+  .resume-container{
+    width: 80%;
+    margin: 3em auto;
+    padding: 2em;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    position: relative;
+  }
+  .heading-display{
+    background-color: var(--green);
+    border-radius: 4px;
+  }
+  .heading-text-display{
+    padding: 20px;
+    margin-left: 20px;
+    color: var(--white);
+  }
+  .main-content{
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .contactinfo-display{
+    margin: 15px 0;
+  }
+  .display-headings{
+    font-size: 2em;
+  }
+  .display-paragraphs{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 10px;
+  }
+  .display-lis{
+    font-size: 1.3em;
+    margin: 10px 30px;
+  }
+  .education-display{
+    margin: 30px 0;
+  }
+  .workexp-display{
+    margin: 30px 0;
+  }
+  .skills-display{
+    margin: 30px 0;
+  }
+  .img-cont{
+    overflow: hidden;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 2.5rem;
+    top: 7.5rem;
+  }
+  .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 1600px) {
+    .container{
+      width: 80vw;
+    }
+    .num-input{
+      width: 25%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .container{
+      width: 85%;
+    }
+    .inputs{
+      margin: 20px 0;
+    }
+    .num-input{
+      width: 40%;
+    }
+    .resume-container{
+      width: 85%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .container{
+      width: 100%;
+    }
+    .display-hidden{
+      display: block;
+    }
+    .form-container{
+      margin: 0;
+    }
+    .resume-container{
+      width: 96%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .container{
+      width: 100%;
+    }
+    .display-hidden{
+      display: block;
+    }
+    .form-container{
+      margin: 0;
+    }
+    .num-input{
+      width: 40%;
+    }
+    .inputs{
+      margin: 20px 0;
+    }
+    .btns{
+      padding: 6px 5px;
+    }
+    .resume-container{
+      width: 98%;
+    }
+  }
